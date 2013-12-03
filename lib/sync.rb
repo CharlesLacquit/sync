@@ -81,6 +81,10 @@ module Sync
       config[:api_key]
     end
 
+    def cluster
+      config[:cluster]
+    end
+
     def reactor
       @reactor ||= Reactor.new
     end
